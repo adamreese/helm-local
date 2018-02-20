@@ -1,0 +1,6 @@
+---
+name: "local"
+version: "0.1.0"
+usage: "Client only helm"
+description: "Client only helm"
+command: "$HELM_PLUGIN_DIR/bin/local.sh"
