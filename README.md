@@ -3,8 +3,7 @@
 Run Tiller as a local daemon.
 
 ```
-  helm local start
-  helm local COMMAND
+  helm local [command]
 ```
 
 You can setup environment variables to run helm commands directly.
@@ -12,7 +11,6 @@ You can setup environment variables to run helm commands directly.
 ```
   source <(helm local env)
   helm list
-
 ```
 
 ## Usage
