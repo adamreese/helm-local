@@ -66,7 +66,7 @@ helm::run() {
 
 helm::env() {
 cat << EOF
-export HELM_HOST=${TILLER_ADDR}"
+export HELM_HOST="${TILLER_ADDR}"
 EOF
 }
 
